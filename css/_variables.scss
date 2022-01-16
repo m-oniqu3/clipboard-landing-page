@@ -20,7 +20,7 @@ $colours: (
   "strong-cyan": hsl(171, 66%, 44%),
   "light-blue": hsl(233, 100%, 69%),
   "dark-grayish-blue": hsl(210, 10%, 33%),
-  "grayish-blue": hsl(201, 11%, 66%),
+  "light-gray": hsl(195, 12%, 94%),
   "white": hsl(0, 0%, 100%),
 );
 
@@ -29,9 +29,3 @@ $colours: (
 }
 
 //mixins
-
-@mixin flex {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}

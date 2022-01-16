@@ -38,7 +38,6 @@ section p.title {
 }
 
 section p.text {
-  color: #9fabb2;
   line-height: 1.5;
 }
 
@@ -72,7 +71,7 @@ section .img-wrapper img {
 }
 
 main section:nth-child(3) {
-  padding-top: 0;
+  padding: 0;
 }
 
 main section p.title {
@@ -113,5 +112,38 @@ main section .tech-brands img {
 
 main section .tech-brands img:last-child {
   padding-bottom: 0;
+}
+
+footer {
+  background-color: #eef1f2;
+  padding-bottom: 2rem;
+}
+
+footer .logo {
+  width: 10rem;
+  margin: 0 auto;
+  background-image: none;
+}
+
+footer .logo img {
+  padding: 3rem 0;
+}
+
+footer ul.links {
+  list-style: none;
+}
+
+footer ul.links li {
+  padding-bottom: 1.5rem;
+  color: #4c545d;
+  font-weight: 600;
+}
+
+footer .social-media-icons {
+  padding: 1.5rem 0;
+}
+
+footer .social-media-icons img {
+  padding: 0 1rem;
 }
 /*# sourceMappingURL=style.css.map */

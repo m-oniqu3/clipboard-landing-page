@@ -67,7 +67,7 @@ section {
 main {
   section {
     &:nth-child(3) {
-      padding-top: 0;
+      padding: 0;
     }
     p.title {
       font-size: $fs-medium;
@@ -109,6 +109,38 @@ main {
           padding-bottom: 0;
         }
       }
+    }
+  }
+}
+
+footer {
+  background-color: getColor("light-gray");
+  padding-bottom: 2rem;
+
+  .logo {
+    width: 10rem;
+    margin: 0 auto;
+    background-image: none;
+
+    img {
+      padding: 3rem 0;
+    }
+  }
+
+  ul.links {
+    list-style: none;
+
+    li {
+      padding-bottom: 1.5rem;
+      color: getColor("dark-grayish-blue");
+      font-weight: $fw-bold;
+    }
+  }
+
+  .social-media-icons {
+    padding: 1.5rem 0;
+    img {
+      padding: 0 1rem;
     }
   }
 }

@@ -13,15 +13,30 @@ body {
 
 .logo {
   background-image: url(../images/bg-header-mobile.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  @include tablet {
+    background-image: url(../images/bg-header-desktop.png);
+  }
 
   img {
     width: 35%;
     padding: 5rem 0 0rem 0;
+
+    @include tablet {
+      width: 10%;
+    }
   }
 }
 
 section {
   padding: 5rem 0;
+
+  @include tablet {
+    padding: 3rem 0;
+  }
 
   p.title {
     font-size: $fs-heading;
@@ -37,6 +52,12 @@ section {
 
   .button-group {
     padding-top: 3rem;
+
+    @include tablet {
+      @include grid-two;
+      width: 75%;
+      margin: 0 auto;
+    }
 
     button {
       background-color: getColor("strong-cyan");

@@ -19,6 +19,15 @@ body {
 
 .logo {
   background-image: url(../images/bg-header-mobile.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    background-image: url(../images/bg-header-desktop.png);
+  }
 }
 
 .logo img {
@@ -26,8 +35,20 @@ body {
   padding: 5rem 0 0rem 0;
 }
 
+@media (min-width: 768px) {
+  .logo img {
+    width: 10%;
+  }
+}
+
 section {
   padding: 5rem 0;
+}
+
+@media (min-width: 768px) {
+  section {
+    padding: 3rem 0;
+  }
 }
 
 section p.title {
@@ -43,6 +64,19 @@ section p.text {
 
 section .button-group {
   padding-top: 3rem;
+}
+
+@media (min-width: 768px) {
+  section .button-group {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    -webkit-column-gap: 1rem;
+            column-gap: 1rem;
+    width: 75%;
+    margin: 0 auto;
+  }
 }
 
 section .button-group button {

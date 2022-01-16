@@ -57,8 +57,38 @@ section {
   }
 
   .img-wrapper {
+    padding: 4rem 0;
     img {
       width: 100%;
+    }
+  }
+}
+
+main {
+  section {
+    p.title {
+      font-size: $fs-medium;
+      padding: 1rem 0;
+    }
+
+    p.text {
+      padding-bottom: 1rem;
+    }
+
+    .text-group-wrapper {
+      padding-top: 5rem;
+
+      .text-group {
+        padding-bottom: 2rem;
+
+        img {
+          padding-bottom: 1rem;
+        }
+
+        p.title {
+          font-size: $fs-small;
+        }
+      }
     }
   }
 }

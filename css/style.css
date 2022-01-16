@@ -63,7 +63,36 @@ section .button-group button:last-child {
   background-color: #6173ff;
 }
 
+section .img-wrapper {
+  padding: 4rem 0;
+}
+
 section .img-wrapper img {
   width: 100%;
+}
+
+main section p.title {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+main section p.text {
+  padding-bottom: 1rem;
+}
+
+main section .text-group-wrapper {
+  padding-top: 5rem;
+}
+
+main section .text-group-wrapper .text-group {
+  padding-bottom: 2rem;
+}
+
+main section .text-group-wrapper .text-group img {
+  padding-bottom: 1rem;
+}
+
+main section .text-group-wrapper .text-group p.title {
+  font-size: 1.4rem;
 }
 /*# sourceMappingURL=style.css.map */

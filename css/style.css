@@ -71,6 +71,10 @@ section .img-wrapper img {
   width: 100%;
 }
 
+main section:nth-child(3) {
+  padding-top: 0;
+}
+
 main section p.title {
   font-size: 1.8rem;
   padding: 1rem 0;
@@ -88,11 +92,26 @@ main section .text-group-wrapper .text-group {
   padding-bottom: 2rem;
 }
 
+main section .text-group-wrapper .text-group:last-child {
+  padding-bottom: 0;
+}
+
 main section .text-group-wrapper .text-group img {
   padding-bottom: 1rem;
 }
 
 main section .text-group-wrapper .text-group p.title {
   font-size: 1.4rem;
+}
+
+main section .tech-brands img {
+  display: block;
+  width: 40%;
+  margin: 0 auto;
+  padding-bottom: 5rem;
+}
+
+main section .tech-brands img:last-child {
+  padding-bottom: 0;
 }
 /*# sourceMappingURL=style.css.map */

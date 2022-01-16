@@ -66,6 +66,9 @@ section {
 
 main {
   section {
+    &:nth-child(3) {
+      padding-top: 0;
+    }
     p.title {
       font-size: $fs-medium;
       padding: 1rem 0;
@@ -81,12 +84,29 @@ main {
       .text-group {
         padding-bottom: 2rem;
 
+        &:last-child {
+          padding-bottom: 0;
+        }
+
         img {
           padding-bottom: 1rem;
         }
 
         p.title {
           font-size: $fs-small;
+        }
+      }
+    }
+
+    .tech-brands {
+      img {
+        display: block;
+        width: 40%;
+        margin: 0 auto;
+        padding-bottom: 5rem;
+
+        &:last-child {
+          padding-bottom: 0;
         }
       }
     }

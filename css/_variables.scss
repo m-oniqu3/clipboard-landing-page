@@ -27,3 +27,11 @@ $colours: (
 @function getColor($name) {
   @return map-get($colours, $name);
 }
+
+//mixins
+
+@mixin flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

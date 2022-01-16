@@ -1,1 +1,47 @@
 @import "variables";
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: $main-font-size;
+  text-align: center;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.logo {
+  background-image: url(../images/bg-header-mobile.png);
+
+  img {
+    width: 35%;
+    padding: 5rem 0 0rem 0;
+  }
+}
+section {
+  padding: 5rem 0;
+
+  p.title {
+    font-size: $fs-heading;
+    font-weight: $fw-bold;
+    color: getColor("dark-grayish-blue");
+    padding-bottom: 1.5rem;
+  }
+
+  p.text {
+    color: getColor("grayish-blue");
+    line-height: 1.5;
+  }
+
+  .button-group {
+    padding-top: 3rem;
+
+    button {
+      background-color: getColor("strong-cyan");
+      width: 100%;
+      padding: 0.875rem 1rem;
+      font-size: $main-font-size;
+    }
+  }
+}

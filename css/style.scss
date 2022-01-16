@@ -87,9 +87,9 @@ section {
 
 main {
   section {
-    &:nth-child(3) {
-      padding: 0;
-    }
+    // &:nth-child(3) {
+    //   padding: 0;
+    // }
     p.title {
       font-size: $fs-medium;
       padding: 1rem 0;
@@ -97,6 +97,27 @@ main {
 
     p.text {
       padding-bottom: 1rem;
+    }
+
+    .sub-section {
+      @include tablet {
+        @include grid-two;
+        gap: 2rem;
+        align-items: center;
+        padding-top: 3em;
+      }
+
+      .img-wrapper {
+        @include tablet {
+          position: relative;
+          right: 70px;
+        }
+      }
+      .content {
+        @include tablet {
+          text-align: left;
+        }
+      }
     }
 
     .text-group-wrapper {

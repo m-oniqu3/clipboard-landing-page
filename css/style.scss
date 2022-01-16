@@ -19,6 +19,7 @@ body {
     padding: 5rem 0 0rem 0;
   }
 }
+
 section {
   padding: 5rem 0;
 
@@ -39,9 +40,25 @@ section {
 
     button {
       background-color: getColor("strong-cyan");
+      color: getColor("white");
       width: 100%;
-      padding: 0.875rem 1rem;
+      padding: 1rem;
       font-size: $main-font-size;
+      font-weight: $fw-bold;
+      border-radius: 50px;
+      border: none;
+      margin-bottom: 1rem;
+      letter-spacing: 1px;
+
+      &:last-child {
+        background-color: getColor("light-blue");
+      }
+    }
+  }
+
+  .img-wrapper {
+    img {
+      width: 100%;
     }
   }
 }

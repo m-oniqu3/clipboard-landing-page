@@ -48,8 +48,22 @@ section .button-group {
 
 section .button-group button {
   background-color: #26baa4;
+  color: white;
   width: 100%;
-  padding: 0.875rem 1rem;
+  padding: 1rem;
   font-size: 1.125rem;
+  font-weight: 600;
+  border-radius: 50px;
+  border: none;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+
+section .button-group button:last-child {
+  background-color: #6173ff;
+}
+
+section .img-wrapper img {
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
